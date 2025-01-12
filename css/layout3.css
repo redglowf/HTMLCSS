@@ -10,6 +10,26 @@ div.header>div.headerGrid>h1{}
 div.header>div.headerGrid>ul{}
 div.header>div.headerGrid>ul>li{}
 
+
+/* 공통: 구조가 겹치는 태그들을
+전체적으로 한번씪 선택해줍니다.
+이유" 한번에 공통적으로 수정할 스타일을 위해서 */
+
+div.content{}
+div.content>div.contentGrid{}
+div.content>div.contentGrid>div.header{}
+div.content>div.contentGrid>div.header>h2{}
+div.content>div.contentGrid>div.header>p{}
+div.content>div.contentGrid>div.section{}
+div.content>div.contentGrid>div.section div.article{
+    background-color: #ff0000;
+}
+div.content>div.contentGrid>div.section>div.article>img{}
+div.content>div.contentGrid>div.section>div.article>div.texts{}
+div.content>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content>div.contentGrid>div.section>div.article>div.texts>h4{}
+div.content>div.contentGrid>div.section>div.article>div.texts>p{}
+
 /* 컨텐츠1 */
 div.content.cnt1{}
 div.content.cnt1>div.contentGrid{}
