@@ -1,0 +1,212 @@
+@import url('./reset.css');
+
+/* 헤더탑 */
+div.headerTop{
+    background-color: #212517;
+}
+div.headerTop>div.headerTopGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.headerTop>div.headerTopGrid>i{
+    font-size: 35px;
+    line-height: 40px;
+}
+
+/* 헤더 */
+div.headerWrap{
+    background-color: #a31f30;
+}
+div.headerWrap>div.header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+div.headerWrap>div.header>h1{
+    line-height: 80px;
+    font-size: 25px;
+}
+div.headerWrap>div.header>ul{
+    display: flex;
+    column-gap: 10px;
+}
+div.headerWrap>div.header>ul>li{
+    line-height: 80px;
+    font-size: 20px;
+}
+
+/* 컨텐츠 공통 */
+div.content{
+    margin-top: 80px;
+}
+div.content>div.contentGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.content>div.contentGrid>div.header{}
+div.content>div.contentGrid>div.header>h2{
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+div.content>div.contentGrid>div.header>p{
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    width: calc(100% / 12 * 6);
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+div.content>div.contentGrid>div.section{
+    margin-top: 40px;
+}
+div.content>div.contentGrid>div.section div.article{}
+div.content>div.contentGrid>div.section div.article>img{
+    display: block;
+    background-color: #ccc;
+}
+div.content>div.contentGrid>div.section div.article>div.texts{}
+div.content>div.contentGrid>div.section div.article>div.texts>h3{
+    font-size: 25px;
+    line-height: 40px;
+}
+div.content>div.contentGrid>div.section div.article>div.texts>h4{
+font-size: 14px;
+line-height: 40px;
+}
+div.content>div.contentGrid>div.section div.article>div.texts>p{
+    height: 80px;
+    line-height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+/* 컨텐츠1 */
+div.content.cnt1{}
+div.content.cnt1>div.contentGrid{}
+div.content.cnt1>div.contentGrid>div.header{}
+div.content.cnt1>div.contentGrid>div.header>h2{}
+div.content.cnt1>div.contentGrid>div.header>p{}
+div.content.cnt1>div.contentGrid>div.section{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop{
+    display: flex;
+    column-gap: 20px;
+}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>img{
+    height: 320px;
+}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>h3{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>h4{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>p{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons>i{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem{
+    display: flex;
+    column-gap: 20px;
+}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem>div.article{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem>div.article>img{
+    height: 320px;
+}
+}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem>div.article>div.texts{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem>div.article>div.texts>h3{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem>div.article>div.texts>p{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem>div.article>div.texts>div.icons{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottem>div.article>div.texts>div.icons>i{}
+
+/* 컨텐츠2 */
+div.content.cnt2{}
+div.content.cnt2>div.contentGrid{
+    width: 100%;
+    max-width: none;
+}
+div.content.cnt2>div.contentGrid>div.header{
+    background-color: #f00;
+    padding-top: 80px;
+    padding-bottom: calc(40px * 8);
+}
+div.content.cnt2>div.contentGrid>div.header>h2{}
+div.content.cnt2>div.contentGrid>div.header>p{}
+div.content.cnt2>div.contentGrid>div.section{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: calc(40px * -7);
+}
+div.content.cnt2>div.contentGrid>div.section>div.article{
+    display: flex;
+}
+div.content.cnt2>div.contentGrid>div.section>div.article>video{
+    width: 50%;
+    height: 440px;
+    display: block;
+    background-color: #ccc;
+}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts{
+    width: 50%;
+    background-color: #fff;
+}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts>h4{}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts>p{}
+
+/* 컨텐츠3 */
+div.content.cnt3{}
+div.content.cnt3>div.contentGrid{}
+div.content.cnt3>div.contentGrid>div.header{}
+div.content.cnt3>div.contentGrid>div.header>h2{}
+div.content.cnt3>div.contentGrid>div.header>p{}
+div.content.cnt3>div.contentGrid>div.section{
+    display: flex;
+    column-gap: 20px;
+}
+div.content.cnt3>div.contentGrid>div.section>div.article{
+    width: 25%;
+}
+div.content.cnt3>div.contentGrid>div.section>div.article>img{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+div.content.cnt3>div.contentGrid>div.section>div.article>div.texts{}
+div.content.cnt3>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content.cnt3>div.contentGrid>div.section>div.article>div.texts>p{}
+
+/* 푸터 */
+div.footer{
+    background-color: #a31f30;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+div.footer>div.footerGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.footer>div.footerGrid>h3{
+line-height: 80px;
+font-size: 30px;
+text-align: center;
+}
+div.footer>div.footerGrid>p{
+    line-height: 20px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+div.footer>div.footerGrid>div.icons{
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+div.footer>div.footerGrid>div.icons>i{}
