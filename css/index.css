@@ -1,0 +1,247 @@
+@import url('./reset.css');
+
+/* 헤더탑 */
+div.hdrTopWrap{
+    background-color: #212517;
+}
+div.hdrTopWrap>div.hdrTop{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+div.hdrTopWrap>div.hdrTop>i{}
+
+/* 헤더 */
+div.headerWrap{
+    background-color: #a31f30;
+}
+div.headerWrap>div.header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    text-transform: capitalize;
+    justify-content: space-between;
+    line-height: 80px;
+    font-weight: bold;
+}
+div.headerWrap>div.header>h1{}
+div.headerWrap>div.header>ul{
+    display: flex;
+    column-gap: 10px;
+}
+div.headerWrap>div.header>ul>li{}
+
+/* 컨텐츠 공통 */
+div.cntWrap{
+    margin-top: 80px;
+}
+div.cntWrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content>div.header{}
+div.cntWrap>div.content>div.header>h2{
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+div.cntWrap>div.content>div.header>p{
+    width: calc(100% / 12 * 6);
+    margin: 0 auto;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+}
+div.cntWrap>div.content>div.section{
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.section div.article{}
+div.cntWrap>div.content>div.section div.article>div.image{
+    background-color: #ccc;
+}
+div.cntWrap>div.content>div.section div.article>div.texts{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h3{
+    line-height: 40px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h4{
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>p{
+    height: 80px;
+    line-height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+/* 컨텐츠 1 */
+div.cntWrap>div.content.cnt01{}
+div.cntWrap>div.content.cnt01>div.header{}
+div.cntWrap>div.content.cnt01>div.header>h2{}
+div.cntWrap>div.content.cnt01>div.header>p{}
+div.cntWrap>div.content.cnt01>div.section{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop{
+    display: flex;
+    column-gap: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.image{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts{
+    padding-left: calc(100% / 6 * 0.7);
+    padding-right: calc(100% / 6 * 2);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h4{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>p{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.icons{
+    line-height: 40px;
+    font-size: 22px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.icons>i{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.image{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>div.icons{
+    line-height: 40px;
+    font-size: 22px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>div.icons>i{}
+
+/* 컨텐츠 2 */
+div.cntWrap>div.content.cnt02{
+    width: 100%;
+    max-width: none;
+}
+div.cntWrap>div.content.cnt02>div.header{
+    background-color: #a31f30;
+}
+div.cntWrap>div.content.cnt02>div.header>h2{}
+div.cntWrap>div.content.cnt02>div.header>p{
+    width: calc(80% / 12 * 6);
+    max-width: 520px;
+}
+div.cntWrap>div.content.cnt02>div.section{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article{
+    display: flex;
+
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    width: 50%;
+    height: 440px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    width: 50%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h4{}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+    height: 120px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div.button{
+    background-color: #212517;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    width: calc(100% / 6 * 4);
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* 컨텐츠 3 */
+div.cntWrap>div.content.cnt03{}
+div.cntWrap>div.content.cnt03>div.header{}
+div.cntWrap>div.content.cnt03>div.header>h2{}
+div.cntWrap>div.content.cnt03>div.header>p{}
+div.cntWrap>div.content.cnt03>div.section{
+    display: flex;
+    column-gap: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+    height: 200px;
+    overflow: hidden;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article:hover>div.texts{
+    margin-top: -200px;
+    color: #fff;
+    background-color: rgba(0,0,0,1);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+    height: 200px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts{
+    transition: all 0.5s;
+    background-color: rgba(0,0,0,0);
+    color: #000;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>p{}
+
+/* 푸터 */
+div.ftrWrap{
+    background-color: #a31f30;
+}
+div.ftrWrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.ftrWrap>div.footer>h4{
+    line-height: 80px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+}
+div.ftrWrap>div.footer>p{
+    line-height: 20px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.ftrWrap>div.footer>div.sns{
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+div.ftrWrap>div.footer>div.sns>i{}
